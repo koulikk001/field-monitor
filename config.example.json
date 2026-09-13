@@ -1,0 +1,13 @@
+{
+  "port": 8080,
+  "cameraStreamUrl": "http://192.168.4.1:81/stream",
+  "cameraSnapshotUrl": "http://192.168.4.1/capture",
+  "ingestKey": "change-me",
+  "historyMaxPoints": 2400,
+  "thresholds": {
+    "co2":   { "unit": "ppm", "safe": 1000, "caution": 5000, "max": 8000 },
+    "co":    { "unit": "ppm", "safe": 9,    "caution": 35,   "max": 100  },
+    "so2":   { "unit": "ppm", "safe": 2,    "caution": 5,    "max": 10   },
+    "smoke": { "unit": "%",   "safe": 20,   "caution": 50,   "max": 100  }
+  }
+}

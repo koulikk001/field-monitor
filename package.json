@@ -1,0 +1,13 @@
+{
+  "name": "field-monitor-backend",
+  "version": "1.0.0",
+  "description": "Backend for the post-disaster field monitor dashboard — ingests sensor readings, proxies the ESP32-CAM feed, and pushes live updates to the dashboard over WebSocket.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.17.0"
+  }
+}
